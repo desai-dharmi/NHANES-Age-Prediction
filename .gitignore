@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project outputs
+outputs/
+logs/
+models/
+figures/
+submissions/
+catboost_info/
+
+# Root-level dataset copies
+/Train_dataset.csv
+/Test_dataset.csv
+/Sample_submission.csv
+
+# Data (keep structure, ignore large files if re-downloaded)
+data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
